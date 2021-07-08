@@ -1,0 +1,200 @@
+/*RESPNSIVE STYLE CSS3 :: SET*/
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    .v2-header .navbar {
+        padding: 10px 0px;
+    }
+    .v2-top-banner .v2s-top-banner-img {
+        width: 50%;
+    }
+}
+@media (max-width: 991px) {
+    .v2-top-banner .v2-content {
+        padding: 120px 0;
+        padding-left: 15px;
+        position: relative;
+        z-index: 9;
+    }
+    .v2-header .navbar .v2-left-menu li a {
+        font-size: 15px;
+        color: #717171 !important;
+        padding: 10px 0px;
+    }
+    .v2-header .navbar .v2-form-menu .v2-store-data a span {
+        left: 35px;
+        right: auto;
+    }
+    .v2-top-banner .v2-content p {
+        color: #000000;
+    }
+}
+@media (max-width: 881px) {
+    .v2-top-banner .v2-content h1 {
+        font-size: 42px;
+        line-height: 42px;
+        margin-bottom: 10px;
+    }
+    .v2-top-banner .v2-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .v2-top-banner .v2-content .v2-order-now {
+        margin-top: 20px;
+    }
+    .slick-prev,
+    .slick-next {
+        padding: 8px 25px;
+    }
+    .slick-next:before,
+    .slick-prev:before{
+        width: 19px;
+        height: 10px;
+    }
+    .slick-prev:hover:before,
+    .slick-next:hover:before {
+        width: 16px;
+        height: 13px;
+    }
+    .slick-next,
+    .slick-prev {
+        top: -45px;
+    }
+    .slick-prev {
+        right: 48px;
+    }
+    .v2-testimonial .v2-content-clider img {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .v2-client-ptofile img {
+        margin: 0 auto;
+    }
+
+}
+@media (max-width: 767px) {
+    .v2-top-banner .v2-content h1 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .v2-top-banner .v2-content .v2-order-now li.v2-video a {
+        border-radius: 30px;
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .v2-top-banner .v2-content .v2-order-now .v2-video-icon a img {
+        width: 37px;
+    }
+    .v2-top-banner .v2-content .v2-order-now .v2-video-icon {
+        margin-left: 10px;
+    }
+    .v2-heading h4 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .v2-heading h2 {
+        font-size: 20px;
+    }
+    .v2-heading {
+        margin-bottom: 30px;
+    }
+    .v2-client-ptofile {
+        text-align: center;
+    }
+    .v2-testimonial .v2-content-clider {
+        padding-top: 32px;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .v2-testimonial {
+        padding: 0px 0px 20px 0;
+        background-repeat: no-repeat;
+    }
+    .v2-booking .v2-content {
+        padding: 40px 15px;
+        border-radius: 30px;
+    }
+    .v2-booking .v2-content ul {
+        display: block !important;
+    }
+    .v2-booking .v2-content ul {
+        display: block !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .v2-booking .v2-content ul li a {
+        border: 1px solid #ffffff;
+        display: inline-block;
+        padding: 14px 15px;
+        border-radius: 60px;
+        color: #ffffff;
+        font-size: 14px;
+        min-width: 200px;
+        margin-bottom: 15px !important;
+        margin: 0 auto;
+    }
+    .v2-booking {
+        padding: 40px 0;
+    }
+    .v2-footer {
+        padding: 40px 0;
+    }
+    .v2-about-us .v2-content a {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .v2-testimonial .v2-content-clider p {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 439px) {
+    .v2-top-banner .v2s-top-banner-img {
+        width: 100%;
+    }
+    .v2-top-banner .v2-content {
+        padding-bottom: 70px;
+    }
+    .v2-fresh-food .v2-menu span {
+        height: 60px;
+        width: 60px;
+    }
+    .v2-fresh-food .v2-menu span img {
+        width: 30px;
+        margin-bottom: 9px;
+    }
+    .v2-fresh-food .v2-menu {
+        padding: 25px 15px;
+    }
+    .v2-fresh-food {
+        margin-bottom: 30px;
+    }
+    .v2-about-us {
+        padding: 0px 0px 60px 0px;
+    }
+    .v2-about-us .v2-content {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .v2-booking .v2-content .v2-heading h2 br {
+        display: none;
+    }
+    .v2-booking .v2-content .v2-heading h2 {
+        line-height: 26px;
+    }
+    .v2-footer .v2-content.s2 {
+        padding-right: 0;
+        margin-bottom: 25px;
+    }
+    .v2-footer .v2-content.s3 {
+        margin-bottom: 15px;
+    }
+    .v2-footer {
+        padding: 20px 0;
+        padding-bottom: 10px;
+    }
+}
